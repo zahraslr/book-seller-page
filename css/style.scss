@@ -1,0 +1,17 @@
+$primary :rgb(255, 218, 51);
+$light :#f7f7f7; 
+$secondary: rgb(203, 219, 175);
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":rgb(96, 138, 79),
+//   "info":       $info,
+//   "warning":    $warning,
+//   "danger":     $danger,
+  "light":      $light
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
+
+
